@@ -60,3 +60,7 @@ getstr = function(mystring, initial.character, final.character)
 # use the getstr() function to extract the day between the comma and the slash in "mydate"
 getstr(mydate, ' ', '/')
 ```
+Input was a vactor
+```
+start<-sapply(as.character(epi_stem_DE_TvN.lnc.DE_fc_0.5_q_0.1$X), getstr,':', '-')
+```
