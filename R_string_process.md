@@ -64,3 +64,8 @@ Input was a vactor
 ```
 start<-sapply(as.character(epi_stem_DE_TvN.lnc.DE_fc_0.5_q_0.1$X), getstr,':', '-')
 ```
+#### truncate string from a certain character in R [duplicate]
+https://stackoverflow.com/questions/6861740/truncate-string-from-a-certain-character-in-r
+```
+sample.id <- sub("^[^C]*", "", as.character(sample.list[,1]))
+```
